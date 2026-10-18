@@ -1,23 +1,22 @@
-
-# Entorno virtual de Python
+# Entornos virtuales
 .venv/
 venv/
+env/
+camaraa_web/bin/
+camaraa_web/include/
+camaraa_web/lib/
+camaraa_web/lib64/
+camaraa_web/share/
+camaraa_web/pyvenv.cfg
 
-# Archivos generados por Python
+# Bibliotecas Python
+**/site-packages/
+
+# Archivos generados
 __pycache__/
 *.py[cod]
 
-# Variables de entorno y contraseñas
+# Secretos
 .env
 .env.*
-
-# Archivos de configuración del editor
-.vscode/
-.idea/
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-
-# Archivos temporales
-*.log
+!.env.example
